@@ -19,7 +19,6 @@ const colors = [
   "whitesmoke",
   "forestgreen",
 ];
-console.log("ji");
 const background = document.querySelector(".container");
 const btn = document.getElementById("btn");
 const color = document.querySelector(".color");
@@ -29,7 +28,6 @@ btn.addEventListener("click", function () {
   background.style.backgroundColor = colors[randomColor];
   color.textContent = colors[randomColor];
   color.style.color = colors[randomColor];
-  console.log("hi");
 });
 function getRandomColor() {
   return Math.floor(Math.random() * colors.length);
