@@ -24,10 +24,10 @@ reset.addEventListener("click", function () {
 
 function colorChange() {
   if (Number(count.textContent) < 0) {
-    count.style.color = "red";
+    count.style.color = "salmon";
   } else if (Number(count.textContent) == 0) {
     count.style.color = "#333";
   } else if (Number(count.textContent) > 0) {
-    count.style.color = "green";
+    count.style.color = "yellowgreen";
   }
 }
